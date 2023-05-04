@@ -20,7 +20,7 @@ namespace ASPNetLessons
                 }
                 else
                 {
-                    await next.Invoke(); 
+                    await next.Invoke();
                 }
             });
 
